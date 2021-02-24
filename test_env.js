@@ -14,6 +14,15 @@ jest.mock("react-syntax-highlighter/dist/esm/styles/hljs", () => ({ docco: {} })
 // globally mock this until we actually start to test it
 jest.mock("plotly.js-dist", () => ({ newPlot: () => undefined }));
 
+jest.mock("react-i18next", () => ({
+  // this mock makes sure any components using the translate HoC receive the t function as a prop
+  withTranslation: () => Component => {
+    const _ = require("lodash");
+    Component.defaultProps = { ...Component.defaultProps, t: key => _.last(_.split(key, ":")) };
+    return Component;
+  },
+}));
+
 jest.mock("chartjs-plugin-zoom", () => ({}));
 jest.mock("chartjs-chart-box-and-violin-plot/build/Chart.BoxPlot.js", () => ({}));
 jest.mock("chartjs-plugin-trendline", () => ({}));
