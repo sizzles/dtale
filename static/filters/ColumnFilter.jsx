@@ -213,4 +213,4 @@ ColumnFilter.propTypes = {
   t: PropTypes.func,
 };
 
-export default withTranslation(["column_menu"])(ColumnFilter);
+export default withTranslation("column_menu")(ColumnFilter);

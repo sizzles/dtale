@@ -48,4 +48,4 @@ HeatMapOption.propTypes = {
   t: PropTypes.func,
 };
 
-export default withTranslation(["menu"])(HeatMapOption);
+export default withTranslation("menu")(HeatMapOption);

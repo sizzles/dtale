@@ -172,7 +172,7 @@ class ReactDataViewerMenu extends React.Component {
               <span className="toggler-action">
                 <button className="btn btn-plain" onClick={buttonHandlers.CODE}>
                   <i className="ico-code" />
-                  <span className="font-weight-bold">{t("menu:Code Export")}</span>
+                  <span className="font-weight-bold">{t("code_export:Code Export")}</span>
                 </button>
               </span>
             </MenuItem>
@@ -283,7 +283,7 @@ ReactDataViewerMenu.propTypes = {
   t: PropTypes.func,
 };
 
-const TranslatedReactDataViewMenu = withTranslation(["menu", "menu_description"])(ReactDataViewerMenu);
+const TranslatedReactDataViewMenu = withTranslation(["menu", "menu_description", "code_export"])(ReactDataViewerMenu);
 const ReduxDataViewerMenu = connect(
   state => _.pick(state, ["dataId", "hideShutdown", "pythonVersion", "menuPinned"]),
   dispatch => ({

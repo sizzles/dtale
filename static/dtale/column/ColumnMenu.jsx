@@ -232,7 +232,7 @@ class ReactColumnMenu extends React.Component {
           />
           <ColumnMenuOption
             open={openAction("type-conversion")}
-            label={t("column_menu:Type Conversion")}
+            label={t("builders:Type Conversion")}
             iconClass="ico-swap-horiz"
           />
           {gu.findColType(colCfg.dtype) === "string" && (
@@ -285,7 +285,7 @@ ReactColumnMenu.propTypes = {
   isPreview: PropTypes.bool,
   t: PropTypes.func,
 };
-const TranslatedReactColumnMenu = withTranslation(["menu", "column_menu"])(ReactColumnMenu);
+const TranslatedReactColumnMenu = withTranslation(["menu", "column_menu", "builders"])(ReactColumnMenu);
 const ReduxColumnMenu = connect(
   state => _.pick(state, ["dataId", "columnMenuOpen", "selectedCol", "selectedToggle", "isPreview"]),
   dispatch => ({

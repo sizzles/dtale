@@ -76,4 +76,4 @@ StringFilter.propTypes = {
   uniqueCt: PropTypes.number,
   t: PropTypes.func,
 };
-export default withTranslation(["column_filter"])(StringFilter);
+export default withTranslation("column_filter")(StringFilter);

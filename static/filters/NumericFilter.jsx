@@ -196,5 +196,5 @@ NumericFilter.propTypes = {
   missing: PropTypes.bool,
   t: PropTypes.func,
 };
-const TranslatedNumericFilter = withTranslation(["column_filter"])(NumericFilter);
+const TranslatedNumericFilter = withTranslation("column_filter")(NumericFilter);
 export { TranslatedNumericFilter as NumericFilter, EQ_TOGGLE, NE };

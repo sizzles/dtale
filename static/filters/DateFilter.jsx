@@ -81,4 +81,4 @@ DateFilter.propTypes = {
   missing: PropTypes.bool,
   t: PropTypes.func,
 };
-export default withTranslation(["column_filter"])(DateFilter);
+export default withTranslation("column_filter")(DateFilter);

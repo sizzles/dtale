@@ -88,7 +88,9 @@
       "Clean Column": "Clean Column",
       "Column Analysis": "Column Analysis",
       "Variance Report": "Variance Report",
-      "Formats": "Formats",
+      "Formats": "Formats"
+    },
+    "builders": {
       "Type Conversion": "Type Conversion",
       "Z-Score Normalize": "Z-Score Normalize",
       "Row Difference": "Row Difference",
@@ -216,6 +218,96 @@
       "Equals": "Equals",
       "Not Equals": "Not Equals",
       "to": "to"
+    },
+    "about": {
+      "Your version is currently out of sync with PyPi.": "Your version is currently out of sync with PyPi.",
+      "Please upgrade.": "Please upgrade.",
+      "Your Version": "Your Version",
+      "PyPi Version": "PyPi Version",
+      "GitHub": "GitHub",
+      "readthedocs.io": "readthedocs.io"
+    },
+    "upload": {
+      "Load File": "Load File",
+      "URL": "URL",
+      "Drop data files here to upload, or click to select files": "Drop data files here to upload, or click to select files",
+      "Loading File": "Loading File",
+      "Load From The Web": "Load From The Web",
+      "Load": "Load",
+      "Data Type": "Data Type",
+      "Proxy": "Proxy",
+      "(Optional)": "(Optional)",
+      "Sample Datasets": "Sample Datasets",
+      "(Requires access to web)": "(Requires access to web)",
+      "Last Modified:": "Last Modified:",
+      "COVID-19": "COVID-19",
+      "Seinfeld": "Seinfeld",
+      "The Simpsons": "The Simpsons",
+      "Video Games": "Video Games",
+      "Movies": "Movies",
+      "makeTimeDataFrame": "makeTimeDataFrame",
+      "covid": "US COVID-19 data from the NY Times.",
+      "seinfeld": "Dataset of all lines by character & season for the tv show Seinfeld (https://github.com/4m4n5/the-seinfeld-chronicles)",
+      "simpsons": "Dataset of all lines by character & season (16 seasons) for the tv show The Simpsons",
+      "video_games": "Dataset video games and their sales",
+      "movies": "Dataset of movies and their release date, director, sales, reviews, etc...",
+      "time_dataframe": "Output from running pandas.util.testing.makeTimeDataFrame()"
+    },
+    "code_export": {
+      "Code Export": "Code Export",
+      "Copy": "Copy"
+    },
+    "instance":{
+      "Process": "Process",
+      "Rows": "Rows",
+      "Cols": "Cols",
+      "Column Names": "Column Names",
+      "Memory Usage (MB)": "Memory Usage (MB)",
+      "Preview": "Preview",
+      "N/A": "N/A"
+    },
+    "range_highlight": {
+      "Apply To All Columns": "Apply To All Columns",
+      "Apply": "Apply"
+    },
+    "rename": {
+      "Update": "Update",
+      "Cancel": "Cancel",
+      "Current": "Current",
+      "New": "New"
+    },
+    "filter": {
+      "Active": "Active",
+      "Custom Filters": "Custom Filters",
+      "Outlier Filters": "Outlier Filters",
+      "wrap column names in backticks that are protected words or containing spaces/periods: ": "wrap column names in backticks that are protected words or containing spaces/periods: ",
+      "Active": "Active",
+      "Example Queries": "Example Queries",
+      "Custom Filter": "Custom Filter",
+      "drop NaN values: ": "drop NaN values: ",
+      "show only NaN values: ": "show only NaN values: ",
+      "date filtering: ": "date filtering: ",
+      "in-clause on string column: in-clause on string column: ": "in-clause on string column: ",
+      "and-clause on numeric column: ": "and-clause on numeric column: ",
+      "or-clause on numeric columns: ": "or-clause on numeric columns: ",
+      "negative-clause: ": "negative-clause: ",
+      "parenthesis usage: ": "parenthesis usage: ",
+      "regex usage (search for substrings 'foo' or 'bar'):": "regex usage (search for substrings 'foo' or 'bar'):",
+      "Help": "Help",
+      "Clear": "Clear",
+      "Apply": "Apply",
+      "context_variables_des": "These are initialized via the <var>context_vars</var> argument to dtale.show(), ex: <b>dtale.show(df, context_vars={\"{'foo': [1, 2, 3]}\"})</b><br />They can be referenced in filters by prefixing the variable name with {\"'@'\"}, ex:<b>Col in @foo</b>to only show rows where {\"'Col'\"} is in list {\"'foo'\"}",
+      "No context variables are defined.": "No context variables are defined"
+    },
+    "popup": {
+      "Yes/No": "Yes/No",
+      " Variance Report for ": " Variance Report for ",
+      " Column Analysis for ": " Column Analysis for ",
+      " Type Conversion of ": " Type Conversion of ",
+      " Clean ": " Clean ",
+      " Replacements for ": " Replacements for ",
+      "Error": "Error",
+      "Active D-Tale Instances": "Active D-Tale Instances"
     }
   }
 }
