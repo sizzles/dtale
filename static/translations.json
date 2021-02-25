@@ -36,7 +36,10 @@
       "Index": "Index",
       "Network Viewer": "Network Viewer",
       "Merge & Stack": "Merge & Stack",
-      "ALL DATA": "ALL DATA"
+      "ALL DATA": "ALL DATA",
+      "Unpin menu": "Unpin menu",
+      "Pin menu": "Pin menu",
+      "pin_menu": "Toggle for pinning this menu to the left side of the screen."
     },
     "menu_description": {
       "describe": "Describe column's values (Top unique values, Min, Max, Sum, STD, Var,...)",

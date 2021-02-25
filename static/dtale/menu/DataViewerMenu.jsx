@@ -6,7 +6,6 @@ import { GlobalHotKeys } from "react-hotkeys";
 import { withTranslation } from "react-i18next";
 import { connect } from "react-redux";
 
-import ConditionalRender from "../../ConditionalRender";
 import { openChart } from "../../actions/charts";
 import bu from "../backgroundUtils";
 import DescribeOption from "./DescribeOption";
@@ -241,7 +240,7 @@ class ReactDataViewerMenu extends React.Component {
                 </button>
               </span>
             </MenuItem>
-            <ConditionalRender display={iframe}>
+            {iframe && (
               <li>
                 <span className="toggler-action">
                   <button className="btn btn-plain" onClick={() => window.open(window.location.pathname, "_blank")}>
@@ -250,8 +249,8 @@ class ReactDataViewerMenu extends React.Component {
                   </button>
                 </span>
               </li>
-            </ConditionalRender>
-            <ConditionalRender display={hideShutdown == false}>
+            )}
+            {hideShutdown == false && (
               <MenuItem description={t("menu_description:shutdown")}>
                 <span className="toggler-action">
                   <a className="btn btn-plain" href="/shutdown">
@@ -260,7 +259,7 @@ class ReactDataViewerMenu extends React.Component {
                   </a>
                 </span>
               </MenuItem>
-            </ConditionalRender>
+            )}
           </ul>
         </div>
       </div>

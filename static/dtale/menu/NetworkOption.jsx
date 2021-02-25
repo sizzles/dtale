@@ -1,8 +1,8 @@
 import PropTypes from "prop-types";
 import React from "react";
+import { withTranslation } from "react-i18next";
 
 import { MenuItem } from "./MenuItem";
-import { withTranslation } from "react-i18next";
 
 class NetworkOption extends React.Component {
   constructor(props) {
