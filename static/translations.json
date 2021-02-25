@@ -308,6 +308,35 @@
       " Replacements for ": " Replacements for ",
       "Error": "Error",
       "Active D-Tale Instances": "Active D-Tale Instances"
+    },
+    "correlations": {
+      "(Click on any point in the scatter to filter the grid down to that record)": "(Click on any point in the scatter to filter the grid down to that record)",
+      "Correlations Scatter": "Correlations Scatter",
+      "Only in": "Only in",
+      "Correlated": "Correlated",
+      "PPS": "PPS",
+      "Pearson": "Pearson",
+      "Spearman": "Spearman",
+      "vs.": "vs.",
+      "No columns found": "No columns found",
+      "View Correlation(s) For": "View Correlation(s) For",
+      "Pearson Correlation Matrix": "Pearson Correlation Matrix",
+      "(Click on any cell to view the details of that correlation)": "(Click on any cell to view the details of that correlation)",
+      "Timeseries of Pearson Correlation for": "Timeseries of Pearson Correlation for",
+      "Rolling Pearson Correlation (window: ": "Rolling Pearson Correlation (window: ",
+      " for ": " for ",
+      "Click on any point in the chart to view a scatter plot of the data in that correlation": "Click on any point in the chart to view a scatter plot of the data in that correlation",
+      "Click on any point in the chart to view a scatter plot of the data in that rolling correlation": "Click on any point in the chart to view a scatter plot of the data in that rolling correlation",
+      "Use Rolling?": "Use Rolling?",
+      "(Rolling Mean)": "(Rolling Mean)",
+      "Rolling": "Rolling",
+      "Window": "Window",
+      "(Please edit)": "(Please edit)",
+      "Press ENTER to submit": "Press ENTER to submit",
+      "Min Periods": "Min Periods",
+      "Date Column": "Date Column",
+      "Correlations Timeseries": "Correlations Timeseries",
+      "Predictive Power Score for ": "Predictive Power Score for "
     }
   }
 }
